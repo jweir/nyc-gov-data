@@ -88,10 +88,9 @@ importPackage(java.io);
 
       for (var i=0; i < sets.length; i++) {
         var set = sets[i];
-        out += "* #### ["+set.dataSets+"]("+set.url+") ####  \n";
+        out += "#### ["+set.dataSets+"]("+set.url+")  \n";
         out += "  "+set.description+"  \n";
-        out += "  _format:"+set.fileType+"  updated:"+set.dateInfo+"_  \n";
-        out += "\n"
+        out += "  _format:"+set.fileType+"  updated:"+set.dateInfo+"_  \n\n";
       };
       out += "\n"
     }
