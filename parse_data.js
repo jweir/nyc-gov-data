@@ -77,12 +77,20 @@ importPackage(java.io);
     }
   }
 
+  function count_sets(){
+    var count = 0;
+    for(var c in datasets){
+      count += datasets[c].length;
+    }
+    return count;
+  }
+
   //////////////////////////////////////////////////////////////////////////////
   function markdown(){
     var sets, out = "";
-    
+
     out += "# NYC Data sets\n"
-    
+    out += count_sets()+ " data sets found\n\n"
     for (var x=0; x < categories.length; x++) {
       var category = categories[x];
       out += "## "+category+" \n";
