@@ -80,7 +80,7 @@ importPackage(java.io);
   //////////////////////////////////////////////////////////////////////////////
   function markdown(){
     var sets, out = "";
-    
+
     for (var x=0; x < categories.length; x++) {
       var category = categories[x];
       out += "# "+category+" #\n";
@@ -88,7 +88,7 @@ importPackage(java.io);
 
       for (var i=0; i < sets.length; i++) {
         var set = sets[i];
-        out += "* ## ["+set.dataSets+"]:"+set.url+" ##\n";
+        out += "* ## ["+set.dataSets+"]("+set.url+") ##\n";
         out += "  "+set.description+"\n";
         out += "  _format:"+set.fileType+"  updated:"+set.dateInfo+"_\n";
         out += "\n"
