@@ -1,0 +1,672 @@
+Administrative and Political Boundaries
+ Political & Election Districts GIS: State Assembly Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyadav_001.zip
+
+ Political & Election Districts GIS: City Council Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyccav_001.zip
+
+ Political & Election Districts GIS: Congressional Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycgav_001.zip
+
+ Political & Election Districts GIS: State Senate Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyssav_001.zip
+
+ Political & Election Districts GIS: Election Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyedav_001.zip
+
+ Political & Election Districts GIS: Municipal Court Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nymcav_001.zip
+
+ Borough & Community Districts GIS: Boroughs (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nybbav_001.zip
+
+ Borough & Community Districts GIS: Boroughs (Water Areas Included) (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nybbwiav_001.zip
+
+ Borough & Community Districts GIS: Community Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycdav_001.zip
+
+ Zip Code Boundaries (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_ZIP_CODE_01_29JUL2009.zip
+
+ Historic district maps (SHP)
+   http://www.nyc.gov/html/lpc/downloads/datasets/LPC_districts_001.zip
+
+
+Administrative and Political Boundaries, Business and Economic
+ Business Improvement District Boundaries (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_BUSINESS_IMPROVEMENT_DISTRICT_01_29JUL2009.zip
+
+
+Atmospheric and Climatic, Others
+ Street Tree Census (Bronx) (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_BronxStreetTrees_001.zip
+
+ Street Tree Census (Brooklyn) (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_BrooklynStreetTrees_001.zip
+
+ Street Tree Census (Manhattan) (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_ManhattanStreetTrees_001.zip
+
+ Street Tree Census (Queens) (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_QueensStreetTrees_001.zip
+
+ Street Tree Census (Staten Island) (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_StatenIslandStreetTrees_001.zip
+
+ Nature Preserves (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv
+
+
+Business and Economic
+ List of capital projects (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_capital_001.csv
+
+
+Business and Economic, Administrative and Political Boundaries
+ Zoning GIS Data: ESRI Shape file (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycgiszoningfeatures_shp_001.zip
+
+ Zoning GIS Data: ESRI Geo-database (GDB)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycgiszoningfeatures_fgdb_001.zip
+
+ 2000 Census Blocks & Tracts GIS: 2000 Census Tracts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyct2000av_001.zip
+
+ 2000 Census Blocks & Tracts GIS: 2000 Census Tracts (water areas included) (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyct2000wiav_001.zip
+
+ 2000 Census Blocks & Tracts GIS: 2000 Census Blocks (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycb2000av_001.zip
+
+ 2000 Census Blocks & Tracts GIS: 2000 Census Blocks (water areas included) (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nycb2000wiav_001.zip
+
+ Primary Commercial Zoning by lot (SHP)
+   http://www.nyc.gov/html/edc/downloads/datasets/EDC_PrimaryZoningCommercial_001.zip
+
+ Primary Manufacturing Zoning by lot (SHP)
+   http://www.nyc.gov/html/edc/downloads/datasets/EDC_PrimaryZoningManufacturing_001.zip
+
+ Primary Residential Zoning by lot (SHP)
+   http://www.nyc.gov/html/edc/downloads/datasets/EDC_PrimaryZoningResidential_001.zip
+
+
+Business and Economic, Organizations
+ Online directory of certified businesses with a detailed profile (XLS)
+   http://www.nyc.gov/html/sbs/downloads/datasets/SBS_mwbe_001.xls
+
+
+Business and Economic, Property
+ Electronics Stores (XLS)
+   http://www.nyc.gov/html/dca/downloads/excel/DCA_ElectronicStores_001.xls
+
+ Parking Facilities (XLS)
+   http://www.nyc.gov/html/dca/downloads/excel/DCA_ParkingFacilities_001.xls
+
+ Sidewalk Cafes (XLS)
+   http://www.nyc.gov/html/dca/downloads/excel/DCA_SidewalkCafes_001.xls
+
+ Laundry Facilities (XLS)
+   http://www.nyc.gov/html/dca/downloads/excel/DCA_Laundromats_001.xls
+
+ Demographic, Social, Economic, and Housing Profiles by Borough (XLS)
+   http://nyc.gov/html/dcp/download/biggapps/DCP_acs_nyc_boros_001.xls
+
+ Demographic, Social, Economic, and Housing Profiles by Community District/PUMA (XLS)
+   http://nyc.gov/html/dcp/download/biggapps/DCP_acs_cd_puma_001.xls
+
+ Property Address Directory (CSV)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_pad_001.zip
+
+ Selected Facilities and Program Sites: Access (MDB)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_facilities_access_001.zip
+
+ Selected Facilities and Program Sites: Text (CSV)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_facilities_text_001.zip
+
+ NYC Population Age/Sex Projection by Borough 2000 - 2030 (XLS)
+   http://nyc.gov/html/dcp/download/biggapps/DCP_population_projections_001.xls
+
+ Privately Owned Public Spaces (MDB)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_POPS_001.zip
+
+ Property valuation and assessment data (XLS)
+   http://www.nyc.gov/html/dof/downloads/big_apps/dof_condensedavroll._001.zip
+
+ Property valuation and assessment data (XLS)
+   http://www.nyc.gov/html/dof/downloads/big_apps/dof_tc1_001.zip
+
+ Property valuation and assessment data (XLS)
+   http://www.nyc.gov/html/dof/downloads/big_apps/dof_tc234_001.zip
+
+
+Cadastral,  Imagery and Base Maps
+ Open Spaces (Parks, Courts, Tracks, Cemetery Outlines) (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/OPEN_SPACE.zip
+
+
+Community Service
+ DYCD Programs (XLS)
+   http://www.nyc.gov/html/dycd/downloads/excel/DYCD_afterschoolprograms_001..xls
+
+
+Cultural Affairs
+ Constituent Cultural Affairs Organizations (XLS)
+   http://www.nyc.gov/html/dcla/downloads/datasets/Constituent_Cultural_Affairs_Organizations.xls
+
+
+Cultural Affairs, Events, Community Service
+ Calendar of Citywide Festivals (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_festivals_001.csv
+
+
+Education
+ School search (XLS)
+   http://www.nyc.gov/html/doed/downloads/datasets/DOE_LocationMasterData_001.xls
+
+
+Education, Business and Economic, Administrative and Political Boundaries
+ School, Health, Fire & Police GIS: School Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nysdav_001.zip
+
+
+Elevation and Derived Products, Imagery and Base Maps
+ Elevation points (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/ELEVATION.zip
+
+
+Events
+ Citywide Events Calendar (XLS)
+   http://www.nyc.gov/html/cecm/downloads/excel/CECM_CitywideEvents_001.xls
+
+ NYC Landmarks (SHP)
+   http://www.nyc.gov/html/lpc/downloads/datasets/LPC_points_001.zip
+
+
+Events, Community Service
+ Calendar of Special Events (RSS)
+   http://www.nycgovparks.org/xml/events_300_rss.xml
+
+
+Facilities and Structures
+ Directory of Beaches (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_beaches_001.csv
+
+ Directory of Boating and Marinas (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_marinas_001.csv
+
+ Directory of Historic Houses (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_historichouse_001.csv
+
+ Directory of Ice Skating Rinks (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_iceskating_001.csv
+
+ Directory of Nature Centers (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_naturecenters_001.csv
+
+ Directory of Parks Disability Accessibility Facilities and Programs (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_accessible_001.csv
+
+ Directory of Playgrounds (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_playgrounds_001.csv
+
+ Directory of Public Computer Resource Centers (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_computercenter_001.csv
+
+ Directory of Recreation Centers (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_reccenter_001.csv
+
+ Directory of Running Tracks (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_runningtrack_001.csv
+
+ Pavement Edge Lines (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/PAVEMENT_EDGE.zip
+
+ Map of Baseball and Softball Diamonds (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Baseball_001.zip
+
+ Map of Beaches (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Beaches_001.zip
+
+ Map of Sprayshowers (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Sprayshower_001.zip
+
+ Map of Multipurpose Fields (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Multipurpose_001.zip
+
+ Map of Water Fountains (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_WaterFountain_001.zip
+
+
+Facilities and Structures,  Imagery and Base Maps
+ Hydrography Structures (Piers, Seawalls) (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_HYDROGRAPHY_STRUCTURE_01_28JUL2009.zip
+
+
+Facilities and Structures,  Imagery and Base Maps, Business and Economic
+ Parking Lot Features (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_PARKING_LOT_01_28JUL2009.zip
+
+
+Facilities and Structures, Business and Economic
+ Green Market Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_GREEN_MARKET_01_29JUL2009.zip
+
+
+Facilities and Structures, Business and Economic, Utilities and Communication
+ Wifi Hotspot Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_WIFI_HOTSPOT_01_29JUL2009.zip
+
+
+Facilities and Structures, Community Service
+ Directory of Barbecuing Areas (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_barbecue_001.csv
+
+ Directory of Basketball Courts (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_basketball_001.csv
+
+ Directory of Dog Runs (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_dogruns_001.csv
+
+ Directory of Handball Courts (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_handball_001.csv
+
+ Directory of Hiking Trails (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_hiking_001.csv
+
+ Directory of Horseback Riding Trails (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_horseback_001.csv
+
+ Directory of Swimming Pools (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_pools_001.csv
+
+ Directory of Tennis Courts (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_tennis_001.csv
+
+ Directory of Zoos and Aquariums (CSV)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_zoos_001.csv
+
+ Map of Handball Courts (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Handball_001.zip
+
+ Map of Parks (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Parks_001.zip
+
+ Map of Pools (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Pools_001.zip
+
+ Map of Basketball Courts (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Basketball_001.zip
+
+ Map of Golf Courses (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_GolfCourses_001.zip
+
+ Map of Playgrounds (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Playgrounds_001.zip
+
+ Map of Soccer and Football Fields (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Soccer_Football_001.zip
+
+ Map of Tennis Courts (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Tennis_001.zip
+
+ Map of Tracks (SHP)
+   http://nyc.gov/html/dpr/nycbigapps/DPR_Tracks_001.zip
+
+
+Facilities and Structures, Education, Business and Economic
+ Basic Description of Colleges and Universities (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_COLLEGE_UNIVERSITY_01_29JUL2009.zip
+
+
+Facilities and Structures, Education, Organizations,Business and Economic
+ Universal Pre-K Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_UNIVERSAL_PRE_K_01_29JUL2009.zip
+
+
+Facilities and Structures, Imagery and Base Maps
+ Boardwalk Features (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_BOARDWALK_01_28JUL2009.zip
+
+ Shoreline Features (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/SHORELINE.zip
+
+ Sidewalk Features (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_SIDEWALK_01_28JUL2009.zip
+
+
+Facilities and Structures, Imagery and Base Maps, Transportation
+ Street Centerline (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/STREET_CENTERLINE.zip
+
+
+Facilities and Structures, Library, Business and Economic
+ Library Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_LIBRARY_01_29JUL2009.zip
+
+
+Facilities and Structures, Organizations
+ Post Office Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_POST_OFFICE_01_29JUL2009.zip
+
+
+Facilities and Structures, Organizations, Business and Economic
+ After-School Programs (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AFTER_SCHOOL_PROGRAM_01_29JUL2009.zip
+
+ Agency Service Center (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AGENCY_SERVICE_CENTER_01_29JUL2009.zip
+
+ Cultural center (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_CULTURAL_CENTER_01_29JUL2009.zip
+
+ City Day Care Center Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_DAY_CARE_CENTER_01_29JUL2009.zip
+
+ Senior Center Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_SENIOR_CENTER_01_29JUL2009.zip
+
+
+Facilities and Structures, Transportation
+ Airport Point (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AIRPORT_POINT_01_29JUL2009.zip
+
+ Airport Polygon (City Airport Runways) (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AIRPORT_POLYGON_01_29JUL2009.zip
+
+ JFK Airtrain (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AIRTRAIN_01_29JUL2009.zip
+
+ Ferry Terminal Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_FERRY_01_29JUL2009.zip
+
+ New Jersey transit (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_NEW_JERSEY_TRANSIT_01_29JUL2009.zip
+
+ New Jersey Transit Stations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_NEW_JERSEY_TRANSIT_STATION_01_29JUL2009.zip
+
+ Path Station Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_PATH_STATION_01_29JUL2009.zip
+
+ Path train (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_PATH_TRAIN_01_29JUL2009.zip
+
+
+Facilities and Structures, Transportation,  Imagery and Base Maps
+ Railroad Features (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/RAILROAD.zip
+
+ Roadbed (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/ROADBED.zip
+
+
+Facilities and Structures, Transportation, Imagery and Base Maps
+ Roadway Median Features (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_MEDIAN_01_28JUL2009.zip
+
+ Transportation Structures (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_TRANSPORTATION_STRUCTURE_01_28JUL2009.zip
+
+
+Facilities and Structures,Transportation
+ JFK Airtrain Station Locations (GDB)
+   http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_AIRTRAIN_STATION_01_29JUL2009.zip
+
+
+Finances
+ Financial plan statements (XLS)
+   http://www.nyc.gov/html/omb/downloads/bigapp/omb_nycbudget_001_16jul2009.xls
+
+
+Imagery and Base Maps
+ LION: single line street base map GIS: ESRI Geo-database (GDB)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_lionav_001.zip
+
+ LION: single line street base map GIS: MapInfo Table (MAP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_lionmi_001.zip
+
+ Neighborhood Names GIS (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyc_nhoodsnames_001.zip
+
+ Projection Areas GIS (depicted in PLANYC 2030) (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nypaav_001.zip
+
+
+Inland Water Resources, Imagery and Base Maps
+ Hydrography (Water Features) (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/HYDRO.zip
+
+
+Library
+ BPL Electronic Resources (XLS)
+   http://www.nyc.gov/html/bpl/downloads/datasets/BPL_electronicResources_001.xls
+
+ BPL Branches (RSS)
+   http://misc.brooklynpubliclibrary.org/BigApps/BPL_branch_001.xml
+
+ NYPL Blogs (RSS)
+   http://nypl.org/blog/feed
+
+ Library Exhibitions (RSS)
+   http://nypl.org/calendar/index.cfm?rss=1&series=All_Series&aid=All_Audiences&cid=52&lid=All_Locations&timespan=today&start=1
+
+ Queens Public Library Hours and Locations (XLS)
+   http://www.nyc.gov/html/qpl/downloads/datasets/QueensLibrary_branch hours_and_locations_001.xls
+
+
+Library, Events
+ BPL Events Calendar (RSS)
+   http://misc.brooklynpubliclibrary.org/BigApps/BPL_events_001.xml
+
+ Calendar of Library Events: Classes and Performances (RSS)
+   http://nypl.org/calendar/index.cfm
+
+
+Media
+ Latin media and entertainment events, organizations, and companies (XLS)
+   http://www.nyc.gov/html/lmec/downloads/datasets/LMEC_Listingsdirectory_001.xls
+
+ Production office space (XLS)
+   http://www.nyc.gov/html/film/downloads/excel/MOFTB_Recording_Studios_001.xls
+
+
+Others
+ 311 Consumer Complaints (XLS)
+   http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_ConsumerComplaint_001.xls
+
+
+Property
+ City-owned property from IPIS database (XLS)
+   http://www.nyc.gov/html/dcas/downloads/excel/DCAS_IPIS_001.xls
+
+ Property Data (Buildings Information System) (TXT)
+   http://www.nyc.gov/html/dob/downloads/download/bigApple/DOB_Properties_001.zip
+
+ Building License Fees (XLS)
+   http://www.nyc.gov/html/dob/downloads/download/bigApple/DOB_LicenseFees_001.xls
+
+ Active Building Jobs (TXT)
+   http://www.nyc.gov/html/dob/downloads/download/bigApple/DOB_ActiveJobs_001.zip
+
+ Active Permits (TXT)
+   http://www.nyc.gov/html/dob/downloads/download/bigApple/DOB_ActivePermits_001.zip
+
+
+Property,  Imagery and Base Maps
+ Building Perimeter Outlines (GDB)
+   http://gis.nyc.gov/doitt/dl/gisdata/shp/buildings.zip
+
+
+Public Safety
+ Community Health Survey (GIS data) (SAS)
+   http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_chs+other-gis_001.zip
+
+ World Trade Center Health Registry (SAS)
+   http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_wtchr_001.zip
+
+ Health and Nutrition Examination Survey results (SAS)
+   http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_nyc-hanes_001.zip
+
+ Restaurant inspection results (TXT)
+   http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_restaurant-inspections_001.zip
+
+ Community Health Survey (SAS data) (SAS)
+   http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_chs-survey_001.zip
+
+ 311 Damaged Trees (XLS)
+   http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_DamagedTree_001.xls
+
+ Recycling Diversion and Capture Rates (XLS)
+   http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_RecyclingDiversion_001.xls
+
+ Special Waste Drop-off Sites (XLS)
+   http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_SpecialWasteSites_001.xls
+
+ Graffiti Locations (XLS)
+   http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_Graffiti_001.xls
+
+ DSNY's Refuse and Recycling Disposal Networks (XLS)
+   http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_DisposalNetwork_001.XLS
+
+ Fire and Medical Response Times FY2009 (XLS)
+   http://www.nyc.gov/html/fdny/BigApps/
+
+ Citywide Performance Report (XLS)
+   http://www.nyc.gov/html/ops/downloads/datasets/OPS_CPR_001.xls
+
+ NYC Feedback Citywide Customer Survey (XLS)
+   http://www.nyc.gov/html/ops/downloads/datasets/OPS_CustomerSurvey_001.xls
+
+ Street Conditions Observaton Unit (SCOUT/311) (XLS)
+   http://www.nyc.gov/html/ops/downloads/datasets/OPS_SCOUT_001.xls
+
+ Multi-Agency Report (XLS)
+   http://www.nyc.gov/html/ops/downloads/datasets/OPS_MultiAgency_001.xls
+
+
+Public Safety, Administrative and Political Boundaries
+ School, Health, Fire & Police GIS: Fire Battalions (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyfbav_001.zip
+
+ School, Health, Fire & Police GIS: Fire Divisions (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyfdav_001.zip
+
+ School, Health, Fire & Police GIS: Police Precincts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyppav_001.zip
+
+ School, Health, Fire & Police GIS: Health Center Districts (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyhcav_001.zip
+
+ School, Health, Fire & Police GIS: Health Areas (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyhaav_001.zip
+
+
+Public Safety, Atmospheric and Climatic
+ Hurricane evacuation zones (SHP)
+   http://www.nyc.gov/html/oem/downloads/big_apps/OEM_HurricaneEvacZones_001.zip
+
+ Hurricane evacuation centers (SHP)
+   http://www.nyc.gov/html/oem/downloads/big_apps/OEM_HurricaneEvacCenters_001.zip
+
+
+Public Safety, Facilities and Structures
+ School, Health, Fire & Police GIS: Fire Companies (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_nyfcav_001.zip
+
+
+Transportation
+ 311 Street Signs (XLS)
+   http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_StreetSigns_001.xls
+
+ 311 Taxi Complaints (XLS)
+   http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_TaxiComplaint_001.xls
+
+ 311 Broken Parking Meters (XLS)
+   http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_BrokenParkingMeter_001.xls
+
+ Weekday Traffic Updates (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/WeeklyTraf.xml
+
+ Weekend Traffic Updates (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds//WeekendTraff.xml
+
+ Special Traffic Updates (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/SpecialAlerts.xml
+
+ Weekly Resurfacing Schedule (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/WeeklyReSch.xml
+
+ Bicycle Parking (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/Bicycle.xml
+
+ Alternate Side Parking (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/AltSideParking.xml
+
+ Municipal Parking Facilities (Bronx) (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/BronxParking.xml
+
+ Municipal Parking Facilities (Brooklyn) (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/BrooklynParking.xml
+
+ Municipal Parking Facilities (Manhattan) (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/ManhattanParking.xml
+
+ Municipal Parking Facilities (Queens) (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/QueensParking.xml
+
+ Municipal Parking Facilities (Staten Island) (RSS)
+   http://a841-dotweb01.nyc.gov/datafeeds/SIParking.xml
+
+ Citywide Low Bridges (KML)
+   http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml
+
+ CITYRACKS: City Bicycle Parking Racks (SHP)
+   http://www.nyc.gov/html/dcp/download/biggapps/DCP_cityracks_001.zip
+
+
+Transportation, Community Service,
+ Black Car bases (XLS)
+   http://www.nyc.gov/html/tlc/downloads/datasets/TLC_black_car_bases_001.xlsm
+
+ Commuter Van Authorizations (XLS)
+   http://www.nyc.gov/html/tlc/downloads/datasets/TLC_commuter_van_authorizations_001.xlsm
+
+ Commuter Van Drivers (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_van_drivers.xls
+
+ Commuter Vans (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_commuter_vans.xls
+
+ Luxury Limousine Bases (XLS)
+   http://www.nyc.gov/html/tlc/downloads/datasets/TLC_luxury_limousine_bases_001.xlsm
+
+ Luxury Limousine Vehicles (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_luxury_limousine_vehicles.xls
+
+ Community Car service bases (XLS)
+   http://www.nyc.gov/html/tlc/downloads/datasets/TLC_community_car_service_bases_001.xlsm
+
+ Community Car Service Vehicles (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_community_car_service_vehicles.xls
+
+ Paratransit Bases (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_bases.xls
+
+ Paratransit Drivers (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_driver.xls
+
+ Paratransit Vehicles (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_paratransit_vehicles.xls
+
+ Current Medallion Drivers (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls
+
+ Current Medallions (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls
+
+ Current FHV Drivers (XLS)
+   http://www.nyc.gov/html/tlc/downloads/excel/current_fhv_drivers.xls
+
+
