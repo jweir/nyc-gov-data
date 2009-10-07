@@ -68,10 +68,6 @@ importPackage(java.io);
 
   var categories = sorted_categories();
 
-  function title(set){
-    return [" ", set.dataSets, " (", set.fileType,")", "\n"].join("");
-  }
-
   function fields(set, additionalFields){
     for (var i=0; i < additionalFields.length; i++) {
       out += "   "+set[additionalFields[i]]+"\n";//["  ", set[additionalFields[i]]].join("\n");
@@ -81,10 +77,31 @@ importPackage(java.io);
     }
   }
 
+  //////////////////////////////////////////////////////////////////////////////
+  function markdown(){
+    var sets, out = "";
+    
+    for (var x=0; x < categories.length; x++) {
+      var category = categories[x];
+      out += "# "+category+" #\n";
+      sets = datasets[category];
+
+      for (var i=0; i < sets.length; i++) {
+        var set = sets[i];
+        out += "* ## ["+set.dataSets+"]:"+set.url+" ##\n";
+        out += "  "+set.description+"\n";
+        out += "  _format:"+set.fileType+"  updated:"+set.dateInfo+"_\n";
+        out += "\n"
+      };
+      out += "\n"
+    }
+    return out;
+  }
+
   //Converts the dataset into a string
   //call with an array of additional fields to include that data
   function text(additionalFields){
-    var sets;
+   var sets, out = "";
 
     for (var x=0; x < categories.length; x++) {
       var category = categories[x]
@@ -93,7 +110,8 @@ importPackage(java.io);
       sets = datasets[category];
 
       for (var i=0; i < sets.length; i++) {
-        out += title(sets[i]);
+        var set = sets[i];
+        out += [" ", set.dataSets, " (", set.fileType,")", "\n"].join("");
         fields(sets[i], additionalFields);
       };
       out += "\n"
@@ -101,9 +119,11 @@ importPackage(java.io);
 
     return out;
   }
+
   function json(){
     return JSON.stringify(datasets, null, "\t");
   }
+
   // Saves the text to file
   function save(format, fileName, additionalFields){
     additionalFields = additionalFields || [];
@@ -121,8 +141,10 @@ importPackage(java.io);
 
   this.json = json;
   this.text = text;
+  this.markdown = markdown;
   this.save = save;
 })();
 
 save("text","data/nyc_data_sets.txt", ["url"]);
 save("json","data/nyc_data_sets.json");
+save("markdown","data/nyc_data_sets.markdown");
