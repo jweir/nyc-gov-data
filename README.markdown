@@ -10,9 +10,9 @@ Those maybe of interest to you.
 
 ## Usage ##
 
-Requires that [Rhino](http://www.mozilla.org/rhino/) be installed
+Probably the easiest thing is to just vist <http://github.com/jweir/nyc-gov-data/blob/master/data/nyc_data_sets.markdown> and view the datasets.
 
-
+To run locally have [Rhino](http://www.mozilla.org/rhino/) installed. _I think that recent versions of Java hava Rhino by default._
 
   `java org.mozilla.javascript.tools.shell.Main -f parse_data.js`
 
