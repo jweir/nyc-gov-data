@@ -80,17 +80,20 @@ importPackage(java.io);
   //////////////////////////////////////////////////////////////////////////////
   function markdown(){
     var sets, out = "";
-
+    
+    out += "# NYC Data sets\n"
+    out += "Clicking the link will download the dataset  \n"
+    
     for (var x=0; x < categories.length; x++) {
       var category = categories[x];
-      out += "# "+category+" #\n";
+      out += "## "+category+" \n";
       sets = datasets[category];
 
       for (var i=0; i < sets.length; i++) {
         var set = sets[i];
-        out += "#### ["+set.dataSets+"]("+set.url+")  \n";
+        out += "###["+set.dataSets+"]("+set.url+")###\n";
         out += "  "+set.description+"  \n";
-        out += "  _format:"+set.fileType+"  updated:"+set.dateInfo+"_  \n\n";
+        out += "  _format:**"+set.fileType+"**,  updated:**"+set.dateInfo+"**,  agency:**"+set.agency+"**_\n\n";
       };
       out += "\n"
     }
