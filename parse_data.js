@@ -12,7 +12,7 @@ importPackage(java.io);
   // via http://www.nyc.gov/html/datamine/html/data/../../includes/scripts/nav_nodes.js
   var dataSetIndex = [
     "category",
-    "dataSets",
+    "title",
     "description",
     "agency",
     "url",
@@ -98,7 +98,7 @@ importPackage(java.io);
 
       for (var i=0; i < sets.length; i++) {
         var set = sets[i];
-        out += "###"+set.dataSets+"###\n";
+        out += "###"+set.title+"###\n";
         out += ">  "+set.description+"  \n";
         out += ">  _format:**"+set.fileType+"**,  updated:**"+set.updateFrequency+"**,  agency:**"+set.agency+"**_  \n";
         out += ">  _url:<"+set.url+">_\n\n"
@@ -121,7 +121,7 @@ importPackage(java.io);
 
       for (var i=0; i < sets.length; i++) {
         var set = sets[i];
-        out += [" ", set.dataSets, " (", set.fileType,")", "\n"].join("");
+        out += [" ", set.title, " (", set.fileType,")", "\n"].join("");
         fields(sets[i], additionalFields);
       };
       out += "\n"
