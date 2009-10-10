@@ -18,7 +18,7 @@ importPackage(java.io);
     "url",
     "fileName",
     "fileType",
-    "dateInfo",
+    "updateFrequency",
     "keywords",
     "related"];
 
@@ -100,7 +100,7 @@ importPackage(java.io);
         var set = sets[i];
         out += "###"+set.dataSets+"###\n";
         out += ">  "+set.description+"  \n";
-        out += ">  _format:**"+set.fileType+"**,  updated:**"+set.dateInfo+"**,  agency:**"+set.agency+"**_  \n";
+        out += ">  _format:**"+set.fileType+"**,  updated:**"+set.updateFrequency+"**,  agency:**"+set.agency+"**_  \n";
         out += ">  _url:<"+set.url+">_\n\n"
       };
       out += "\n"
