@@ -12,13 +12,13 @@ importPackage(java.io);
   // via http://www.nyc.gov/html/datamine/html/data/../../includes/scripts/data_sets.js
   var dataSetIndex = [
     "category",
-    "dataSets",
+    "dataSets", // title of the data set
     "description",
     "agency",
     "url",
     "fileName",
     "fileType",
-    "dateInfo",
+    "dateInfo", // the frequency of the updates
     "keywords",
     "related"];
 
