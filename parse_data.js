@@ -9,7 +9,7 @@ importPackage(java.io);
 
 (function(){
   // 10 fields
-  // via http://www.nyc.gov/html/datamine/html/data/../../includes/scripts/nav_nodes.js
+  // via http://www.nyc.gov/html/datamine/html/data/../../includes/scripts/data_sets.js
   var dataSetIndex = [
     "category",
     "dataSets",
