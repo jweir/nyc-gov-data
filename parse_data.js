@@ -1,7 +1,5 @@
 /*
   Javascript (using Narwhal + Rhino) for parsing the list of NYC.gov datasets.
-  make sure that Narwhal js is in your path
-  http://narwhaljs.org/quick-start.html
 */
 
 load("lib/json2.js");
