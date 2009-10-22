@@ -1,5 +1,5 @@
 # NYC Data sets
-192 data sets found
+194 data sets found
 
 ## Administrative and Political Boundaries 
 ###Political & Election Districts GIS: State Assembly Districts###
@@ -63,38 +63,6 @@
 >  Polygon representing the boundary of the Business Improvement Districts.  
 >  _format:**GDB**,  updated:**As required**,  agency:**Department of Information Technology and Telecommunications (DoITT)**_  
 >  _url:<http://www.nyc.gov/html/gis/downloads/bigapps/DOITT_BUSINESS_IMPROVEMENT_DISTRICT_01_29JUL2009.zip>_
-
-
-## Atmospheric and Climatic, Others 
-###Street Tree Census (Bronx)###
->  Bronx street tree census inventory  
->  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_BronxStreetTrees_001.zip>_
-
-###Street Tree Census (Brooklyn)###
->  Brooklyn street tree census inventory  
->  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_BrooklynStreetTrees_001.zip>_
-
-###Street Tree Census (Manhattan)###
->  Manhattan street tree census inventory  
->  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_ManhattanStreetTrees_001.zip>_
-
-###Street Tree Census (Queens)###
->  Queens street tree census inventory  
->  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_QueensStreetTrees_001.zip>_
-
-###Street Tree Census (Staten Island)###
->  Staten Island street tree census inventory  
->  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_StatenIslandStreetTrees_001.zip>_
-
-###Nature Preserves###
->  DPR directory of nature preserves  
->  _format:**CSV**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
->  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv>_
 
 
 ## Business and Economic 
@@ -277,6 +245,38 @@
 >  Planimetric basemap layer containing elevation points.  
 >  _format:**GDB**,  updated:**Every four years**,  agency:**Department of Information Technology and Telecommunications (DoITT)**_  
 >  _url:<http://gis.nyc.gov/doitt/dl/gisdata/shp/ELEVATION.zip>_
+
+
+## Environment & Conservation 
+###Nature Preserves###
+>  DPR directory of nature preserves  
+>  _format:**CSV**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_naturepreserves_001.csv>_
+
+###Street Tree Census (Bronx)###
+>  Bronx street tree census inventory  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_BronxStreetTrees_001.zip>_
+
+###Street Tree Census (Brooklyn)###
+>  Brooklyn street tree census inventory  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_BrooklynStreetTrees_001.zip>_
+
+###Street Tree Census (Manhattan)###
+>  Manhattan street tree census inventory  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_ManhattanStreetTrees_001.zip>_
+
+###Street Tree Census (Queens)###
+>  Queens street tree census inventory  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_QueensStreetTrees_001.zip>_
+
+###Street Tree Census (Staten Island)###
+>  Staten Island street tree census inventory  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Parks and Recreation (DPR)**_  
+>  _url:<http://nyc.gov/html/dpr/nycbigapps/DPR_StatenIslandStreetTrees_001.zip>_
 
 
 ## Events 
@@ -724,7 +724,7 @@
 ###Calendar of Library Events: Classes and Performances###
 >  The NYPL calendar  
 >  _format:**RSS**,  updated:**Daily**,  agency:**Public Library - New York (NYPL)**_  
->  _url:<http://nypl.org/calendar/index.cfm>_
+>  _url:<http://nypl.org/calendar/index.cfm?rss=1&series=All_Series&aid=All_Audiences&cid=All_Types&lid=All_Locations&timespan=all&start=1&ld=20101228>_
 
 
 ## Media 
@@ -781,11 +781,6 @@
 
 
 ## Public Safety 
-###Community Health Survey (GIS data)###
->  Provides Community Health Survey aggregated city-wide rates by United Hospital Fund neighborhoods and two Boundaries files. These are GIS data The rates cover a number of health topics including: general health status, health care access, cardiovascular health, diabetes, asthma, immunizations, mental health, smoking, second-hand smoke, obesity, commuting patterns, physical activity, cancer screening, HIV, sexual behavior, birth control, drug use, and domestic violence.  
->  _format:**SAS**,  updated:**As required**,  agency:**Department of Health and Mental Hygiene (DOHMH)**_  
->  _url:<http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_chs+other-gis_001.zip>_
-
 ###World Trade Center Health Registry###
 >  The World Trade Center Health Registry completed baseline surveys with 71,437 people exposed to the 9/11/2001 disaster. Users are able to download directly a dataset.  A SAS dataset (along with a codebook and a SAS program to access and analyze the data) and a comma delimited dataset have been provided. These two de-identified datasets include enrollee responses to demographics, eligibility categories, types of exposures on 9/11 and health conditions and symptoms questions from the WTCHR baseline survey. To protect the confidentiality of enrollees, not all baseline variables are included.  
 >  _format:**SAS**,  updated:**As required**,  agency:**Department of Health and Mental Hygiene (DOHMH)**_  
@@ -811,29 +806,9 @@
 >  _format:**XLS**,  updated:**As required**,  agency:**SCOUT/311**_  
 >  _url:<http://www.nyc.gov/html/doitt/downloads/datasets/DOITT_311_DamagedTree_001.xls>_
 
-###Recycling Diversion and Capture Rates###
->  For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).  
->  _format:**XLS**,  updated:**Monthly**,  agency:**Department of Sanitation (DSNY)**_  
->  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_RecyclingDiversion_001.xls>_
-
-###Special Waste Drop-off Sites###
->  Addresses and coordinates of each of 5 special waste drop-off sites where New York City residents can dispose of automotive batteries, motor oil, oil filters, passenger car tires, transmission fluids, fluorescent light bulbs, thermostats, husehold batteries, and latex paint.  
->  _format:**XLS**,  updated:**Annually**,  agency:**Department of Sanitation (DSNY)**_  
->  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_SpecialWasteSites_001.xls>_
-
-###Graffiti Locations###
->  Addresses, current status, and coordinates of requests to clean graffiti (other than bridges or highways) received from the public and SCOUT in the last 12 months.  
->  _format:**XLS**,  updated:**Daily**,  agency:**Department of Sanitation (DSNY)**_  
->  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_Graffiti_001.xls>_
-
-###DSNY's Refuse and Recycling Disposal Networks###
->  For each Community District, the name and address of the location where Refuse, Paper, and Metal/Glass/Plastic collected in that district are disposed of under normal operating circumstances.  
->  _format:**XLS**,  updated:**Monthly**,  agency:**Department of Sanitation (DSNY)**_  
->  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_DisposalNetwork_001.XLS>_
-
 ###Fire and Medical Response Times FY2009###
 >  Average response times to Medical Emergencies and Fire Incidents by Borough, Alarm Box, and Month for Fiscal Year 2009.  
->  _format:**XLS**,  updated:**Daily**,  agency:**Fire Department of New York City (FDNY)**_  
+>  _format:**TXT**,  updated:**Daily**,  agency:**Fire Department of New York City (FDNY)**_  
 >  _url:<http://www.nyc.gov/html/fdny/BigApps/>_
 
 ###Citywide Performance Report###
@@ -855,6 +830,11 @@
 >  Indicators for city services or initiatives that involve the efforts of more than one agency.  
 >  _format:**XLS**,  updated:**As required**,  agency:**Mayor's Office of Operations (Ops)**_  
 >  _url:<http://www.nyc.gov/html/ops/downloads/datasets/OPS_MultiAgency_001.xls>_
+
+###Community Health Survey (GIS data)###
+>  Provides Community Health Survey aggregated city-wide rates by United Hospital Fund neighborhoods and two Boundaries files. These are GIS data The rates cover a number of health topics including: general health status, health care access, cardiovascular health, diabetes, asthma, immunizations, mental health, smoking, second-hand smoke, obesity, commuting patterns, physical activity, cancer screening, HIV, sexual behavior, birth control, drug use, and domestic violence.  
+>  _format:**SHP**,  updated:**As required**,  agency:**Department of Health and Mental Hygiene (DOHMH)**_  
+>  _url:<http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_chs+other-gis_001.zip>_
 
 
 ## Public Safety, Administrative and Political Boundaries 
@@ -894,6 +874,28 @@
 >  Hurricane evacuation centers.  Persons requiring shelter during a hurricane are processed at a hurricane evacuation center and then transported to a hurricane shelter.  
 >  _format:**SHP**,  updated:**As required**,  agency:**Office of Emergency Management (OEM)**_  
 >  _url:<http://www.nyc.gov/html/oem/downloads/big_apps/OEM_HurricaneEvacCenters_001.zip>_
+
+
+## Public Safety, Environment & Conservation 
+###Recycling Diversion and Capture Rates###
+>  For each Community District, its Recycling Diversion rate (percentage of total municipal solid waste collected by DSNY that is disposed of by recycling) and Capture Rate (% of total Paper or Metal/Glass/Plastic in the waste stream that is disposed of by recycling).  
+>  _format:**XLS**,  updated:**Monthly**,  agency:**Department of Sanitation (DSNY)**_  
+>  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_RecyclingDiversion_001.xls>_
+
+###Special Waste Drop-off Sites###
+>  Addresses and coordinates of each of 5 special waste drop-off sites where New York City residents can dispose of automotive batteries, motor oil, oil filters, passenger car tires, transmission fluids, fluorescent light bulbs, thermostats, husehold batteries, and latex paint.  
+>  _format:**XLS**,  updated:**Annually**,  agency:**Department of Sanitation (DSNY)**_  
+>  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_SpecialWasteSites_001.xls>_
+
+###Graffiti Locations###
+>  Addresses, current status, and coordinates of requests to clean graffiti (other than bridges or highways) received from the public and SCOUT in the last 12 months.  
+>  _format:**XLS**,  updated:**Daily**,  agency:**Department of Sanitation (DSNY)**_  
+>  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_Graffiti_001.xls>_
+
+###DSNY's Refuse and Recycling Disposal Networks###
+>  For each Community District, the name and address of the location where Refuse, Paper, and Metal/Glass/Plastic collected in that district are disposed of under normal operating circumstances.  
+>  _format:**XLS**,  updated:**Monthly**,  agency:**Department of Sanitation (DSNY)**_  
+>  _url:<http://nyc.gov/html/dsny/downloads/excel/BigApps/DSNY_DisposalNetwork_001.XLS>_
 
 
 ## Public Safety, Facilities and Structures 
@@ -974,27 +976,27 @@
 >  _format:**RSS**,  updated:**Daily**,  agency:**Department of Transportation (DOT)**_  
 >  _url:<http://a841-dotweb01.nyc.gov/datafeeds/SIParking.xml>_
 
-###Citywide Low Bridges###
->  KML file displaying low vertical clearances on the limited access highway system  
->  _format:**KML**,  updated:**As required**,  agency:**Department of Transportation (DOT)**_  
->  _url:<http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml>_
-
 ###CITYRACKS: City Bicycle Parking Racks###
 >  CITYTRACKS Map is an interactive map of existing bicycle parking (in jurisdiction of DOT) in the city  
 >  _format:**SHP**,  updated:**As required**,  agency:**Department of City Planning (DCP)**_  
 >  _url:<http://www.nyc.gov/html/dcp/download/biggapps/DCP_cityracks_001.zip>_
+
+###Citywide Low Bridges###
+>  KML file displaying low vertical clearances on the limited access highway system  
+>  _format:**KML**,  updated:**As required**,  agency:**Department of Transportation (DOT)**_  
+>  _url:<http://www.nyc.gov/html/dot/downloads/misc/lowbridges_citywide_data_71309.kml>_
 
 
 ## Transportation, Community Service, 
 ###Black Car bases###
 >  Spreadsheet of all TLC black car bases  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
->  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_black_car_bases_001.xlsm>_
+>  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_black_car_bases_001.xls>_
 
 ###Commuter Van Authorizations###
 >  Spreadsheet of all TLC commuter van authorizations  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
->  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_commuter_van_authorizations_001.xlsm>_
+>  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_commuter_van_authorizations_001.xls>_
 
 ###Commuter Van Drivers###
 >  Spreadsheet of all TLC commuter van drivers  
@@ -1009,7 +1011,7 @@
 ###Luxury Limousine Bases###
 >  Spreadsheet of all  TLC luxury limousine bases  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
->  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_luxury_limousine_bases_001.xlsm>_
+>  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_luxury_limousine_bases_001.xls>_
 
 ###Luxury Limousine Vehicles###
 >  Spreadsheet of all TLC luxury limousine vehicles  
@@ -1019,7 +1021,7 @@
 ###Community Car service bases###
 >  Spreadsheet of all TLC community car service bases  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
->  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_community_car_service_bases_001.xlsm>_
+>  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_community_car_service_bases_001.xls>_
 
 ###Community Car Service Vehicles###
 >  Spreadsheet of all TLC community car service vehicles  
@@ -1049,11 +1051,23 @@
 ###Current Medallions###
 >  Spreadsheet of all TLC current medallions  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
->  _url:<http://www.nyc.gov/html/tlc/downloads/excel/current_medallion_drivers.xls>_
+>  _url:<http://www.nyc.gov/html/tlc/downloads/excel/current_medallions.xls>_
 
 ###Current FHV Drivers###
 >  Spreadsheet of all TLC FHV drivers  
 >  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
 >  _url:<http://www.nyc.gov/html/tlc/downloads/excel/current_fhv_drivers.xls>_
+
+###Vehicle Insurance###
+>  Spreadsheet of all TLC vehicle insurance  
+>  _format:**XLS**,  updated:**As required**,  agency:**Taxi and Limousine Commission (TLC)**_  
+>  _url:<http://www.nyc.gov/html/tlc/downloads/datasets/TLC_vehicle_insurance_001.xls>_
+
+
+## Women's Issues, Social Services 
+###Commission on Women's Issues Organizations###
+>  A spreadsheet containing Women's Issues Organizations from a Women's resource network  
+>  _format:**XLS**,  updated:**As required**,  agency:**Human Resources Administration (HRA)**_  
+>  _url:<http://www.nyc.gov/html/hra/downloads/datasets/HRA_CWI_001.xls>_
 
 

@@ -14,14 +14,6 @@ Administrative and Political Boundaries
 Administrative and Political Boundaries, Business and Economic
  Business Improvement District Boundaries (GDB)
 
-Atmospheric and Climatic, Others
- Street Tree Census (Bronx) (SHP)
- Street Tree Census (Brooklyn) (SHP)
- Street Tree Census (Manhattan) (SHP)
- Street Tree Census (Queens) (SHP)
- Street Tree Census (Staten Island) (SHP)
- Nature Preserves (CSV)
-
 Business and Economic
  List of capital projects (CSV)
 
@@ -75,6 +67,14 @@ Education, Business and Economic, Administrative and Political Boundaries
 
 Elevation and Derived Products, Imagery and Base Maps
  Elevation points (GDB)
+
+Environment & Conservation
+ Nature Preserves (CSV)
+ Street Tree Census (Bronx) (SHP)
+ Street Tree Census (Brooklyn) (SHP)
+ Street Tree Census (Manhattan) (SHP)
+ Street Tree Census (Queens) (SHP)
+ Street Tree Census (Staten Island) (SHP)
 
 Events
  Citywide Events Calendar (XLS)
@@ -222,21 +222,17 @@ Property,  Imagery and Base Maps
  Building Perimeter Outlines (GDB)
 
 Public Safety
- Community Health Survey (GIS data) (SAS)
  World Trade Center Health Registry (SAS)
  Health and Nutrition Examination Survey results (SAS)
  Restaurant inspection results (TXT)
  Community Health Survey (SAS data) (SAS)
  311 Damaged Trees (XLS)
- Recycling Diversion and Capture Rates (XLS)
- Special Waste Drop-off Sites (XLS)
- Graffiti Locations (XLS)
- DSNY's Refuse and Recycling Disposal Networks (XLS)
- Fire and Medical Response Times FY2009 (XLS)
+ Fire and Medical Response Times FY2009 (TXT)
  Citywide Performance Report (XLS)
  NYC Feedback Citywide Customer Survey (XLS)
  Street Conditions Observaton Unit (SCOUT/311) (XLS)
  Multi-Agency Report (XLS)
+ Community Health Survey (GIS data) (SHP)
 
 Public Safety, Administrative and Political Boundaries
  School, Health, Fire & Police GIS: Fire Battalions (SHP)
@@ -248,6 +244,12 @@ Public Safety, Administrative and Political Boundaries
 Public Safety, Atmospheric and Climatic
  Hurricane evacuation zones (SHP)
  Hurricane evacuation centers (SHP)
+
+Public Safety, Environment & Conservation
+ Recycling Diversion and Capture Rates (XLS)
+ Special Waste Drop-off Sites (XLS)
+ Graffiti Locations (XLS)
+ DSNY's Refuse and Recycling Disposal Networks (XLS)
 
 Public Safety, Facilities and Structures
  School, Health, Fire & Police GIS: Fire Companies (SHP)
@@ -267,8 +269,8 @@ Transportation
  Municipal Parking Facilities (Manhattan) (RSS)
  Municipal Parking Facilities (Queens) (RSS)
  Municipal Parking Facilities (Staten Island) (RSS)
- Citywide Low Bridges (KML)
  CITYRACKS: City Bicycle Parking Racks (SHP)
+ Citywide Low Bridges (KML)
 
 Transportation, Community Service,
  Black Car bases (XLS)
@@ -285,4 +287,8 @@ Transportation, Community Service,
  Current Medallion Drivers (XLS)
  Current Medallions (XLS)
  Current FHV Drivers (XLS)
+ Vehicle Insurance (XLS)
+
+Women's Issues, Social Services
+ Commission on Women's Issues Organizations (XLS)
 
