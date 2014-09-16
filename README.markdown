@@ -2,22 +2,28 @@
 
 See [Big Apps](http://www.nycbigapps.com/) and [NYC Data](http://nyc.gov/data)
 
-After trying to explore the various datasets online I wanted to just have one list of all datasets.
+Many years ago I was trying to get a handle on the data sets that NYC had available.  But the list was paginiated and hard to view.
 
-This is a Rhino based javascript which will parse the available datasets and dump them to a text file and a json file.  See /data for these files.
+So I wrote this to download all the available datasets.  The original version used the old javascript engine, Rhino, and was written in javascript.
 
-Those maybe of interest to you.
+After noticing people are still using this, I rewrote it.
 
 ## Usage ##
 
-Probably the easiest thing is to just vist <http://github.com/jweir/nyc-gov-data/blob/master/data/nyc_data_sets.markdown> and view the datasets.
+Probably the easiest thing is to just view the 
+[markdown](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data.markdown) or  and view the datasets.
+[csv](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data.csv) versions of the dataset.
 
-To run locally have [Rhino](http://www.mozilla.org/rhino/) installed. _I think that recent versions of Java hava Rhino by default._
 
-  `java org.mozilla.javascript.tools.shell.Main -f parse_data.js`
+There is an archive of the old data sets [here](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data-archive.markdown).
+
+There are close to 4000 datasets now.
+
+
+To run locally you will need [Go](http://www.golang.org) installed.
+
+  `go run nyc-gov-data.go`
 
 ## Legal ##
 
-From [http://nyc.gov/html/datamine/html/terms/terms.shtml](http://nyc.gov/html/datamine/html/terms/terms.shtml)
-
-> The City of New York can not vouch for the accuracy or completeness of data provided by this web site or application or for the usefulness or integrity of the web site or application.  This site provides applications using data that has been modified for use from its original source, NYC.gov, the official web site of the City of New York.
+You might want to review the Terms of Use at [http://www1.nyc.gov/home/terms-of-use.page](http://www1.nyc.gov/home/terms-of-use.page) before diving in.
