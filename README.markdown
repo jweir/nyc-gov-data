@@ -10,19 +10,22 @@ After noticing people are still using this, I rewrote it.
 
 ## Usage ##
 
-Probably the easiest thing is to just view the 
-[markdown](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data.markdown) or  and view the datasets.
-[csv](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data.csv) versions of the dataset.
+The easiest thing is to just download the 
+[csv](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data.csv) version of the dataset.
+
+_The new dataset is too large to view on Github._
 
 
 There is an archive of the old data sets [here](http://github.com/jweir/nyc-gov-data/blob/master/data/nyc-open-data-archive.markdown).
 
-There are close to 4000 datasets now.
+PS: There are close to 4000 datasets now.
 
 
 To run locally you will need [Go](http://www.golang.org) installed.
 
-  `go run nyc-gov-data.go`
+    git clone https://github.com/jweir/nyc-gov-data.git
+    cd nyc-gov-data
+    go run nyc-gov-data.go
 
 ## Legal ##
 
