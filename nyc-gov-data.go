@@ -41,15 +41,17 @@ type Dataset struct {
 	Name        struct {
 		Description string `json:"description"`
 		Url         string `json:"url"`
-	}
+	} `json:"name"`
 	Owner struct {
 		Description string `json:"description"`
 		Url         string `json:"url"`
-	}
+	} `json:"owner"`
 	SystemId    string `json:"system_id"`
+	CreatedAt   int    `json:"created_at"`
+	TableId     string `json:"table_id"`
 	Attribution struct {
 		Description string `json:"description"`
-	}
+	} `json:"attribution"`
 }
 
 func loadDataset(offset int) []byte {
@@ -133,7 +135,16 @@ func toCsv(d *[]Dataset) *bytes.Buffer {
 	}
 
 	return b
+}
 
+func toJSON(d *[]Dataset) []byte {
+	b, e := json.MarshalIndent(d, "", "  ")
+
+	if e != nil {
+		log.Fatal(e)
+	}
+
+	return b
 }
 
 func main() {
@@ -149,6 +160,9 @@ func main() {
 
 	c := toCsv(&datasets)
 	ioutil.WriteFile("data/nyc-open-data.csv", c.Bytes(), 0666)
+
+	j := toJSON(&datasets)
+	ioutil.WriteFile("data/nyc-open-data.json", j, 0666)
 
 	log.Printf("%d datasets found and printed", len(datasets))
 }
