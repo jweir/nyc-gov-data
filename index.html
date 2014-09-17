@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-rc.2/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+</head>
+<body ng-app='NYC'>
+<div ng-controller='Loader'>
+  <div class="row">
+    <div class="col-md-8">
+      <div>{{data.length}} datasets loaded</div>
+      <div>{{keywordValues.length}} keywords found</div>
+      <div>{{categories.length}} categories exist</div>
+      <div>{{selectedKeywords}}</div>
+      {{selectedDatasets.length}}
+      <div ng-repeat="ds in selectedDatasets">
+        <a href="{{ds.name.url}}">{{ds.name.description}}</a>
+        <small>{{ds.description}}</small>
+      </div>
+    </div>
+    <div class="col-md-4" ng-controller="KeywordFilter">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">Keyword Filter</h4>
+        <keyword-range min="keywordFilter.min" max="keywordFilter.max"> hello </keyword-range>
+        <div>min: {{keywordFilter.min}} high: {{keywordFilter.max}}</div>
+        </div>
+        <div class="panel-body" style="height: 800px; overflow-y: scroll">
+        <div ng-repeat="wordPair in filteredKeywords()">
+          <button class="btn btn-default btn-xs" ng-class="{'btn-primary': selected(wordPair[0]) > -1}" ng-click="toggle(wordPair[0])">{{wordPair[0]}}</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script type="text/javascript">
+function Loader($scope, $http){
+  $http.get("/data/nyc-open-data.json")
+    .success(function(res){
+        $scope.data = res;
+
+        var kIndex = {};
+
+        _.chain(res)
+        .map(function(d){ d.keywords = d.keywords.split(/,/).map(function(w){ return w.trim() }); return d })
+        .each(function(ds){
+          ds.keywords.forEach(function(word){
+            kIndex[word] = (kIndex[word] || []);
+            kIndex[word].push(ds);
+            })
+          });
+
+        $scope.keywordIndex = kIndex;
+        $scope.keywords = _.pairs(kIndex).sort(); 
+
+        $scope.keywordFilter = {
+          min: 20,
+          max: Math.max.apply(this, $scope.keywords.map(function(p){ return p[1].length }))
+        }
+
+        $scope.selectedKeywords = []
+        $scope.selectedCategories = []
+
+        $scope.categories = _.chain(res)
+        .pluck("category")
+        .unique()
+        .sort()
+        .value()
+    })
+
+  $scope.updateSelections = function(selectedKeywords){
+    $scope.selectedDatasets = [];
+
+    selectedKeywords.forEach(function(word){
+        var ds = $scope.keywordIndex[word];
+        $scope.selectedDatasets = $scope.selectedDatasets.concat(ds)
+        })
+    
+    $scope.selectedDatasets = _.chain($scope.selectedDatasets)
+      .unique()
+      .sortBy(function(d){ return d.name.description })
+      .value()
+  }
+  
+}
+
+function keywordRange(){
+  return {
+restrict: 'E',
+    scope: {min: "=", max: "="},
+    template: '<input type="range" min="0" max="{{max}}" step="1" ng-model="min">'
+  }
+}
+
+function KeywordFilter($scope){
+
+  $scope.selected = function(word){
+    return $scope.selectedKeywords.indexOf(word);
+  }
+
+  $scope.toggle = function(word){
+    var i = $scope.selected(word);
+
+    if(i > -1){
+      $scope.selectedKeywords.splice(i, 1);
+    } else {
+      $scope.selectedKeywords.push(word);
+    }
+
+    $scope.updateSelections($scope.selectedKeywords)
+
+  }
+
+  $scope.filteredKeywords = function(){
+      var out = ($scope.keywords || []).filter(function(wordPair){
+        return wordPair[1].length >= $scope.keywordFilter.min
+        })
+
+       return out;
+
+  }
+}
+
+angular.module("NYC", [])
+  .controller('Loader', ['$scope', '$http', Loader])
+  .controller('KeywordFilter', ['$scope', KeywordFilter])
+  .directive('keywordRange', keywordRange)
+</script>
+</html>
