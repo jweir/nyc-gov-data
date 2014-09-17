@@ -40,7 +40,7 @@
 </body>
 <script type="text/javascript">
 function Loader($scope, $http){
-  $http.get("/data/nyc-open-data.json")
+  $http.get("../data/nyc-open-data.json")
     .success(function(res){
         $scope.data = res;
 
