@@ -148,6 +148,8 @@ body {
       </div>
     </div>
     <div class="col-md-8 col-md-offset-4 main">
+      <p>This will filter through the known <a href="https://data.cityofnewyork.us/">NYC Open Data</a> datasets by keyword. I found the paginated interface at the NYC site a bit hard to use.  You can also download the datasets as CSV or JSON with the links above.<p>
+      <p>This was created very quickly and is a sketch - maybe it will be useful?</p>
       <div>{{data.length}} datasets loaded</div>
       <div>{{selectedDatasets.length}} datasets filtered</div>
       <hr/>
@@ -187,6 +189,7 @@ function Loader($scope, $http){
 
         $scope.selectedKeywords = []
         $scope.selectedCategories = []
+        $scope.selectedDatasets = [] 
 
         $scope.categories = _.chain(res)
         .pluck("category")
