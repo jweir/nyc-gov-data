@@ -115,7 +115,7 @@ owner: [{{.Owner.Description}}]({{.Owner.Url}})
 }
 
 func toCsv(d *[]Dataset) *bytes.Buffer {
-	headers := []string{"Category", "Name", "URL", "Description", "Owner", "Owner URL", "Keywords"}
+	headers := []string{"Category", "Name", "URL", "Attribution", "Description", "Owner", "Owner URL", "Keywords"}
 
 	b := &bytes.Buffer{}
 	wr := csv.NewWriter(b)
@@ -127,6 +127,7 @@ func toCsv(d *[]Dataset) *bytes.Buffer {
 			r.Category,
 			r.Name.Description,
 			r.Name.Url,
+			r.Attribution.Description,
 			r.Description,
 			r.Owner.Description,
 			r.Owner.Url,
