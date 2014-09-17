@@ -1,4 +1,6 @@
-tldr; Download a list of NYC Open Data data sets here [nyc-open-data.csv](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.csv)
+tldr; Download a list of NYC Open Data data sets here [nyc-open-data.csv](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.csv) or
+[nyc-open-data.json](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.json)
+
 
 # NYC GOV Data #
 
@@ -13,7 +15,8 @@ After noticing people are still using this, I rewrote it.
 ## Usage ##
 
 The easiest thing is to just download the 
-[csv](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.csv) version of the dataset.
+[csv](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.csv) or
+[json](https://raw.githubusercontent.com/jweir/nyc-gov-data/master/data/nyc-open-data.json) version of the dataset.
 
 _The new dataset is too large to view on Github._
 
