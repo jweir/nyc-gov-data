@@ -136,8 +136,12 @@ view model =
     in
         Html.body [ A.class "container" ]
             [ Html.node "link" [ A.rel "stylesheet", A.href "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" ] []
-            , Html.h1 [] [ Html.text "Hello NYC" ]
-            , Html.input [ A.type' "text", E.onInput Filter, A.value model.filter ] [ Html.text "Hello NYC" ]
+            , Html.h1 [A.class "text-xs-center"] [ Html.text "Hello NYC - Open Data Explorer" ]
+            , Html.div [A.class "text-xs-center"]
+                [ Html.span [] [Html.text "This is not a serious tool. It was just done to scratch an itch.  Maybe you will find it helpful? "]
+                , Html.a [ A.href "https://github.com/jweir/nyc-gov-data" ] [ Html.text "Source code and details" ]
+                ]
+            , Html.input [ A.style [("margin", "20px 0 20px")], A.class "form-control", A.type' "text", E.onInput Filter, A.value model.filter, A.placeholder "Filter results: 311, Schools, ..." ] [ Html.text "Hello NYC" ]
             , Html.div [ A.class "row" ]
                 [ paneCategories categories
                 , paneBody model
@@ -152,7 +156,7 @@ paneCategories categories =
                 [ Html.a [ E.onClick (Filter c), A.href "#" ] [ Html.text c ]
                 ]
     in
-        Html.div [ A.class "col-sm-3"] 
+        Html.div [ A.class "col-sm-3" ]
             (List.map x (Set.toList categories |> List.sort))
 
 
@@ -161,16 +165,22 @@ paneBody model =
         items =
             filter model |> List.sortBy (\x -> x.name.description)
     in
-        Html.div [ A.class "col-sm-8"]
+        if List.length model.items == 0 then
+          Html.div [ A.class "col-sm-8" ] [
+            Html.text "Loading..."
+            ]
+        else
+          Html.div [ A.class "col-sm-8" ]
             (List.map itemView items)
 
-itemView item =
-  Html.div []
-    [ Html.strong [] [Html.text item.attribution.description]
-    , Html.a [A.href ("https://data.cityofnewyork.us/" ++ item.name.url), A.target "blank"] [ Html.text item.name.description ]
-    , Html.div [A.style [("color","#AAA")]] [Html.text item.description]
 
-      ]
+itemView item =
+    Html.div []
+        [ Html.strong [] [ Html.text item.attribution.description ]
+        , Html.a [ A.href ("https://data.cityofnewyork.us/" ++ item.name.url), A.target "blank" ] [ Html.text item.name.description ]
+        , Html.div [ A.style [ ( "color", "#AAA" ) ] ] [ Html.text item.description ]
+        ]
+
 
 subscriptions _ =
     Sub.none
